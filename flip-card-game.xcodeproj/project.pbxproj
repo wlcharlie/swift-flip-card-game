@@ -14,6 +14,12 @@
 		CB8EA6702A232B7F0087B0A1 /* flip_card_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8EA66F2A232B7F0087B0A1 /* flip_card_gameTests.swift */; };
 		CB8EA67A2A232B7F0087B0A1 /* flip_card_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8EA6792A232B7F0087B0A1 /* flip_card_gameUITests.swift */; };
 		CB8EA67C2A232B7F0087B0A1 /* flip_card_gameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8EA67B2A232B7F0087B0A1 /* flip_card_gameUITestsLaunchTests.swift */; };
+		CB8EA6892A2330D00087B0A1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8EA6882A2330D00087B0A1 /* Card.swift */; };
+		CB8EA68B2A2358040087B0A1 /* RandomCardsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8EA68A2A2358040087B0A1 /* RandomCardsGenerator.swift */; };
+		CB9326732A26340E00514DEA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9326722A26340E00514DEA /* CardView.swift */; };
+		CB9326752A2994CA00514DEA /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9326742A2994CA00514DEA /* GameView.swift */; };
+		CB9326772A2995A200514DEA /* CardsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9326762A2995A200514DEA /* CardsData.swift */; };
+		CB93267A2A29969900514DEA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9326792A29969900514DEA /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		CB8EA6752A232B7F0087B0A1 /* flip-card-gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "flip-card-gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8EA6792A232B7F0087B0A1 /* flip_card_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flip_card_gameUITests.swift; sourceTree = "<group>"; };
 		CB8EA67B2A232B7F0087B0A1 /* flip_card_gameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flip_card_gameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB8EA6882A2330D00087B0A1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CB8EA68A2A2358040087B0A1 /* RandomCardsGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCardsGenerator.swift; sourceTree = "<group>"; };
+		CB9326722A26340E00514DEA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CB9326742A2994CA00514DEA /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		CB9326762A2995A200514DEA /* CardsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsData.swift; sourceTree = "<group>"; };
+		CB9326792A29969900514DEA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +107,16 @@
 		CB8EA65C2A232B7E0087B0A1 /* flip-card-game */ = {
 			isa = PBXGroup;
 			children = (
+				CB9326782A29966400514DEA /* Views */,
 				CB8EA65D2A232B7E0087B0A1 /* flip_card_gameApp.swift */,
 				CB8EA65F2A232B7E0087B0A1 /* ContentView.swift */,
 				CB8EA6612A232B7F0087B0A1 /* Assets.xcassets */,
 				CB8EA6632A232B7F0087B0A1 /* flip_card_game.entitlements */,
 				CB8EA6642A232B7F0087B0A1 /* Preview Content */,
+				CB8EA6882A2330D00087B0A1 /* Card.swift */,
+				CB8EA68A2A2358040087B0A1 /* RandomCardsGenerator.swift */,
+				CB9326722A26340E00514DEA /* CardView.swift */,
+				CB9326762A2995A200514DEA /* CardsData.swift */,
 			);
 			path = "flip-card-game";
 			sourceTree = "<group>";
@@ -127,6 +144,15 @@
 				CB8EA67B2A232B7F0087B0A1 /* flip_card_gameUITestsLaunchTests.swift */,
 			);
 			path = "flip-card-gameUITests";
+			sourceTree = "<group>";
+		};
+		CB9326782A29966400514DEA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB9326742A2994CA00514DEA /* GameView.swift */,
+				CB9326792A29969900514DEA /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +286,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB8EA6602A232B7E0087B0A1 /* ContentView.swift in Sources */,
+				CB8EA68B2A2358040087B0A1 /* RandomCardsGenerator.swift in Sources */,
+				CB8EA6892A2330D00087B0A1 /* Card.swift in Sources */,
 				CB8EA65E2A232B7E0087B0A1 /* flip_card_gameApp.swift in Sources */,
+				CB9326752A2994CA00514DEA /* GameView.swift in Sources */,
+				CB93267A2A29969900514DEA /* HomeView.swift in Sources */,
+				CB9326732A26340E00514DEA /* CardView.swift in Sources */,
+				CB9326772A2995A200514DEA /* CardsData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
